@@ -1,0 +1,11 @@
+package com.cms.service;
+
+import com.cms.Dto.SignupDTO;
+import com.cms.Dto.UserDTO;
+
+public interface AuthService {
+    UserDTO createUser(SignupDTO signupDTO);
+    public void deleteUserById(long id);
+    
+    
+}

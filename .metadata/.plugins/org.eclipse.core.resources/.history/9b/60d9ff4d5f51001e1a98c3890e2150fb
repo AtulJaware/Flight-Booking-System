@@ -1,0 +1,5 @@
+package com.cms.Dto;
+
+public record AuthenticationResponse(String jwtToken) {
+
+}
